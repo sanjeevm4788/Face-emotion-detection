@@ -1,10 +1,9 @@
 streamlit
 streamlit-webrtc
 numpy
-opencv-python
+opencv-python-headless
 keras
 keras-preprocessing
 pillow
 deepface
 tensorflow-cpu
-
