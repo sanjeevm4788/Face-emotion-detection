@@ -6,4 +6,4 @@ keras
 keras-preprocessing
 pillow
 deepface
-tensorflow
+tensorflow-cpu
