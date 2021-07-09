@@ -7,4 +7,3 @@ keras-preprocessing
 pillow
 deepface
 tensorflow-cpu
-git+git://github.com/heroku/heroku-buildpack-apt
