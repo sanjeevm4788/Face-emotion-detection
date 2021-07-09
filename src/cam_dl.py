@@ -3,13 +3,13 @@ from streamlit_webrtc import VideoTransformerBase
 from tensorflow.keras.models import load_model
 import numpy as np
 
+#loading the pre-trained model file
+model = load_model('final_model.h5')
+
 class VideoTransformer(VideoTransformerBase):
         def transform(self, frame):
           frame = frame.to_ndarray(format="bgr24")
-
-          #loading the pre-trained model file
-          model = load_model('final_model.h5')
-          
+  
           #Labels for the emotions
           class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
           faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
