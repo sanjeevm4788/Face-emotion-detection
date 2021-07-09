@@ -9,6 +9,8 @@ We will solve the above-mentioned challenge by applying deep learning algorithms
 Scope Of Project
 
 A. Model should be able to identify students’ emotions using minimum reference images.
+
 B. Model should work on the real-time webcam video feed.
-C. It should be deployed as webapp
+
+C. It should be deployed as webapp.
 
