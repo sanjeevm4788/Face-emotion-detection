@@ -14,3 +14,12 @@ B. Model should work on the real-time webcam video feed.
 
 C. It should be deployed as webapp.
 
+Steps to be followed to run this project -
+
+STEP 1:
+$ pip install -r requirements.txt
+
+STEP 2:
+$ streamlit run app.py
+
+STEP 3:You can now view your Streamlit app in your browser. Local URL: http://localhost:8501
