@@ -1,12 +1,12 @@
-from keras.models import load_model
 import streamlit as st
 import cv2
+from tensorflow.keras.models import load_model
 import numpy as np
 
 
 def dl_model(image):
 
-    #Loading the pre-trained model file
+    #importing the pre-trained model file
     model = load_model('final_model.h5')
 
     #Labels for the emotions
