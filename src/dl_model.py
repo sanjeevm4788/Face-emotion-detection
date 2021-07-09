@@ -3,11 +3,10 @@ import cv2
 from tensorflow.keras.models import load_model
 import numpy as np
 
+#loading the pre-trained model file
+model = load_model('final_model.h5')
 
 def dl_model(image):
-
-    #importing the pre-trained model file
-    model = load_model('final_model.h5')
 
     #Labels for the emotions
     class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
