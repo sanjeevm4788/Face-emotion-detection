@@ -2,4 +2,8 @@ libsm6
 libxrender1
 libfontconfig1
 libice6
-python3-opencv
+libxext6
+freeglut3-dev
+libgtk2.0-dev
+libjasper-dev
+libatlas-base-dev
