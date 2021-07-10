@@ -1,7 +1,7 @@
 streamlit
 streamlit-webrtc
 numpy
-opencv-python-headless
+opencv-python
 keras
 keras-preprocessing
 pillow
