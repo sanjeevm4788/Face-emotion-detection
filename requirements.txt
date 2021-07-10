@@ -108,5 +108,3 @@ wrapt==1.12.1
 aiortc==1.2.0
 av==8.0.3 
 streamlit-webrtc==0.11.0
-httpstan==4.4.2
-deepface==0.0.60
