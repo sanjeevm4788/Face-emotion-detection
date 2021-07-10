@@ -1,3 +1,4 @@
+tensorflow-cpu
 streamlit
 streamlit-webrtc
 numpy
@@ -6,4 +7,3 @@ keras
 keras-preprocessing
 pillow
 deepface
-tensorflow-cpu
