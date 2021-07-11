@@ -6,7 +6,7 @@ Global E-learning is estimated to witness an 8X over the next 5 years to reach U
 
 We will solve the above-mentioned challenge by applying deep learning algorithms to live video data. The solution to this problem is by recognizing facial emotions. Face Emotion Recognition This is a few shot learning live face emotion detection system. The model should be able to real-time identify the emotions of students in a live class.
 
-##Scope Of Project
+## Scope Of Project
 
 A. Model should be able to identify students’ emotions using minimum reference images.
 
