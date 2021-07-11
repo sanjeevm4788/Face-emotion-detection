@@ -23,3 +23,10 @@ STEP 2:
 $ streamlit run app.py
 
 STEP 3:You can now view your Streamlit app in your browser. Local URL: http://localhost:8501
+
+DEPLOYMENT
+
+The web app is deployed on heroku and can be accessed by this link
+https://face-emotion-dectection.herokuapp.com/
+
+P.S - It takes over 20 minutes to launch the camera as the slug size is too large, but the face emotion detection for image is working fine.
