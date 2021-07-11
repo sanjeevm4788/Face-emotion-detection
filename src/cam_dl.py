@@ -11,7 +11,7 @@ class VideoTransformer(VideoTransformerBase):
           frame = frame.to_ndarray(format="bgr24")
   
           #Labels for the emotions
-          class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
+          class_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
           faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
           gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
           
