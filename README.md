@@ -22,7 +22,8 @@ STEP 1:
 STEP 2:
 **$ streamlit run app.py**
 
-**STEP 3:You can now view your Streamlit app in your browser. Local URL: http://localhost:8501**
+STEP 3:
+**You can now view your Streamlit app in your browser. Local URL: http://localhost:8501**
 
 ## DEPLOYMENT
 
