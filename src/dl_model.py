@@ -9,7 +9,7 @@ model = load_model('final_model.h5')
 def dl_model(image):
 
     #Labels for the emotions
-    class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
+    class_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
     faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
